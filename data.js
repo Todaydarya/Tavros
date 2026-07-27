@@ -10,7 +10,7 @@ const projectsDB = [
             "projects/H2O/3.jpg",
             "projects/H2O/4.jpg"
         ],
-        video: null
+        video: "projects/H2O/H2O.mp4"
     },
     {
         id: 2,
@@ -22,7 +22,7 @@ const projectsDB = [
             "projects/soho_rooms/2.jpg",
             "projects/soho_rooms/3.jpg"
         ],
-        video: null
+        video: "projects/soho_rooms/soho_rooms.mp4"
     },
     {
         id: 3,
@@ -39,7 +39,7 @@ const projectsDB = [
             "projects/Clouds/7.jpg",
             "projects/Clouds/8.jpg"
         ],
-        video: null
+        video: "projects/Clouds/Clouds.mp4"
     },
     {
         id: 4,
@@ -57,7 +57,7 @@ const projectsDB = [
             "projects/Plaza/8.jpg",
             "projects/Plaza/9.jpg"
         ],
-        video: null
+        video: "projects/Plaza/Plaza.mp4"
     },
     {
         id: 5,
@@ -72,7 +72,7 @@ const projectsDB = [
             "projects/Aphrodite/5.jpg",
             "projects/Aphrodite/6.jpg"
         ],
-        video: null
+        video: "projects/Aphrodite/Aphrodite.mp4"
     },
     {
         id: 6,

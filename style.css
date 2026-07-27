@@ -5,7 +5,7 @@
     /* Цвета */
     --color-dark: #021024;
     --color-dark-footer: #021024;
-    --color-light: #F6FAFD;
+    --color-light: #dae2e9; 
     --color-white: #FFFFFF;
     --color-accent: #B3CFE5;
     --color-accent-hover: #8fb8d8;
@@ -483,7 +483,7 @@ body {
    ========================================= */
 .products {
     padding: 80px 0;
-    background-color: #eef4f9;
+    background-color: var(--color-light);
 }
 
 .products-grid {
@@ -580,13 +580,6 @@ body {
     margin: 0 20px 25px;
     padding: 0 0 15px;
     border-bottom: 2px solid #f3f4f6;
-}
-
-.product-card:last-child {
-    grid-column: 1 / -1;
-    justify-self: center;
-    max-width: 400px;
-    width: 100%;
 }
 
 /* =========================================
@@ -806,7 +799,7 @@ body {
     font-weight: normal;
 }
 
-  /* =========================================
+/* =========================================
    12. МОДАЛКА ДЛЯ РАБОТ (фото + видео)
    ========================================= */
 .work-modal .modal-content {
@@ -1014,11 +1007,6 @@ body {
     .products-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-    
-    .product-card:last-child {
-        grid-column: 1 / -1;
-        max-width: 400px;
-    }
 
     .floating-features {
         right: 20px;
@@ -1090,10 +1078,6 @@ body {
     
     .product-image {
         height: 200px;
-    }
-    
-    .product-card:last-child {
-        max-width: 100%;
     }
     
     .footer-logo-wrapper {
