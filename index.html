@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -167,3 +168,174 @@
 </body>
 </html>
 
+=======
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAVROS | Раздвижные кровельные и оконные системы</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+
+    <!-- Hero секция с видео-фоном -->
+    <section class="hero">
+        <div class="hero-video-container">
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="images/hero-video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-overlay"></div>
+        
+        <div class="container hero-content">
+            <div class="hero-logo">
+                <img src="images/logo.png" alt="TAVROS">
+            </div>
+            
+            <h1 class="hero-title">
+                Создайте ощущение <span class="highlight">безграничности </span><br>через свет
+            </h1>
+            
+            <p class="hero-desc">
+                Более 10 лет создаем прозрачные границы между интерьером и природой. 
+                От проектирования до монтажа — полный цикл на собственном производстве.
+            </p>
+            
+            <div class="hero-cta">
+                <a href="#contacts" class="btn-primary">Получить консультацию</a>
+                <a href="#works" class="btn-secondary">Смотреть проекты</a>
+            </div>
+        </div>
+
+        
+        <!-- Индикатор скролла -->
+        <div class="hero-scroll-indicator" onclick="document.getElementById('stats').scrollIntoView({behavior: 'smooth'})">
+            <svg viewBox="0 0 24 24">
+                <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Статистика -->
+    <section class="stats" id="stats">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <span class="stat-number">150+</span>
+                <span class="stat-text">Реализованных объектов</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">95%</span>
+                <span class="stat-text">Клиентов выбирают светопрозрачность</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-text">Открытие с любой стороны под ключ</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">10 лет</span>
+                <span class="stat-text">Опыта проектирования и производства</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Модальное окно для просмотра изображений -->
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <img class="modal-image" id="modalImage" src="" alt="">
+            <div class="modal-caption" id="modalCaption"></div>
+        </div>
+    </div>
+    
+    <!-- Продукция -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="section-title">Наша продукция</h2>
+            <div class="products-grid">
+                <!-- Раздвижные крыши -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/roofs.jpg" alt="Раздвижные крыши" loading="lazy">
+                        <div class="product-badge">Популярное</div>
+                    </div>
+                    <h3>Раздвижные крыши</h3>
+                    <p>Стекло — максимум света. Поликарбонат — защита от UV. Сэндвич-панели — тишина и тепло.</p>
+                </div>
+
+                <!-- Сдвижные платформы -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/platforms.jpg" alt="Сдвижные платформы" loading="lazy">
+                    </div>
+                    <h3>Сдвижные платформы</h3>
+                    <p>Цельные, ножничные, коробчатые. Любой тип движения.</p>
+                </div>
+
+                <!-- Стеклянные перекрытия -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/glass.jpg" alt="Стеклянные перекрытия" loading="lazy">
+                        <div class="product-badge">Новинка</div>
+                    </div>
+                    <h3>Стеклянные перекрытия</h3>
+                    <p>Стены, перегородки, перила, двери. Безрамочная магия.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Наши работы (Заполняется через JS из data.js) -->
+    <section class="works" id="works">
+        <div class="container">
+            <h2 class="section-title">Наши работы</h2>
+            <div class="works-grid" id="works-container"></div>
+        </div>
+    </section>
+
+    <!-- Контакты и форма -->
+    <section class="contacts" id="contacts">
+        <div class="container contacts-wrapper">
+            <div class="contact-info">
+                <h2 class="section-title">Свяжитесь с нами</h2>
+                <p><strong>Константин:</strong> <a href="tel:+79880838895">+7 (988) 083-88-95</a></p>
+                <p><strong>Александра:</strong> <a href="tel:+79180806237">+7 (918) 080-62-37</a></p>
+                <p><strong>Email:</strong> <a href="mailto:tavros76@mail.ru">tavros76@mail.ru</a></p>
+                <p><strong>Адрес:</strong> Республика Адыгея, Тахтамукайский район, пгт. Яблуновский</p>
+            </div>
+            <form class="contact-form" id="contactForm" novalidate action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="ed209577-ebf3-45db-8594-0f3960cf7d05">
+                <h3>Оставить заявку</h3>
+
+                <input type="text" name="user_name" id="userName" placeholder="Имя" required autocomplete="name">
+                <input type="tel" name="user_phone" id="phoneInput" placeholder="+7 (___) ___-__-__" required autocomplete="tel">
+                <input type="email" name="user_email" id="userEmail" placeholder="Почта (необязательно)" autocomplete="email">
+
+                <button type="submit" class="btn" id="submitBtn">Отправить</button>
+                <div id="formStatus" class="form-status" role="alert"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo-wrapper">
+                <span class="footer-bar"></span>
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="TAVROS" class="footer-logo-img">
+                </div>
+                <span class="footer-bar"></span>
+            </div>
+            <p class="footer-copyright">&copy; 2026 TAVROS. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+>>>>>>> 3ccddf611b151828648c7cc569182d31a9adeb6e
