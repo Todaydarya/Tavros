@@ -1,6 +1,4 @@
-# 🌐 Tavros
-
-> Современный и стильный сайт-портфолио / лендинг
+# Tavros
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/Todaydarya/Tavros)](https://github.com/Todaydarya/Tavros/stargazers)
@@ -35,15 +33,17 @@
 ---
 
 ## 📂 Структура проекта
+```bash
 Tavros/
-├── font/ # Шрифты проекта
-├── images/ # Изображения и иконки
-├── projects/ # Страницы проектов
-├── CNAME # Настройка домена для GitHub Pages
-├── data.js # Данные для отображения контента
-├── index.html # Главная страница
-├── script.js # Основной JavaScript
-└── style.css # Стили проекта
+├── font/                 # Шрифты проекта
+├── images/               # Изображения и иконки
+├── projects/             # Страницы проектов
+├── CNAME                 # Настройка домена для GitHub Pages
+├── data.js               # Данные для отображения контента
+├── index.html            # Главная страница
+├── script.js             # Основной JavaScript
+└── style.css             # Стили проекта
+```
 
 
 ---
